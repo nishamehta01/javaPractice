@@ -13,10 +13,8 @@ public class hello {
         ls.add(58);
         ls.add(5);
 
-        System.out.println(ls);
-        ls.add(2,22);
-
-        System.out.println(ls);
+        System.out.println(ls.size());
+        System.out.println(ls.get(4));
     }
 
 }
